@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <RelativePanel x:Name="NavPanel" HorizontalAlignment="Left" Height="710" VerticalAlignment="Top" Width="244" Background="#FF6BB954">
+            <TextBlock HorizontalAlignment="Left" Height="65" Margin="55,10,-115,-55" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" FontSize="36" FontWeight="Bold" Text="Menu"/>
+            <Button x:Name="MainMenuBtn" Content="Self Help" HorizontalAlignment="Left" Height="51" Margin="39,80,-112,-99" VerticalAlignment="Top" Width="138" FontSize="18"/>
+            <Button x:Name="AboutBtn" Content="About " HorizontalAlignment="Left" Height="51" Margin="39,176,-112,-195" VerticalAlignment="Top" Width="138" FontSize="18"/>
+            <Button x:Name="InstructionsBtn" Content="Instuctions" HorizontalAlignment="Left" Height="48" Margin="39,266,-112,-282" VerticalAlignment="Top" Width="138" FontSize="18"/>
+            <Button x:Name="InfoBtn" Content="Important&#xD;&#xA;Information" HorizontalAlignment="Left" Height="70" Margin="39,359,-112,-397" VerticalAlignment="Top" Width="138" FontSize="18"/>
+        </RelativePanel>
+        <RelativePanel x:Name="ContextPanel" HorizontalAlignment="Left" Height="710" Margin="3,10,0,0" VerticalAlignment="Top" Width="1013" Grid.Column="1">
+            <TextBlock x:Name="Subtitle" HorizontalAlignment="Left" Height="70" Margin="289,232,-593,-282" TextWrapping="Wrap" Text="Take Control Of Your Mental Health" VerticalAlignment="Top" Width="366" FontSize="22" FontWeight="SemiBold"/>
+            <Button x:Name="Self_Referrall" Content="Start Referral" HorizontalAlignment="Left" Height="62" Margin="289,384,-384,-414" VerticalAlignment="Top" Width="160" Background="#FF6BB954" FontSize="22" FontWeight="Bold" Click="Self_Referrall_Click" RenderTransformOrigin="0.695,0.82"/>
+            <Button x:Name="HelpBtn" Content="How to" HorizontalAlignment="Left" Height="62" Margin="495,384,-590,-414" VerticalAlignment="Top" Width="160" Background="#FF6BB954" FontSize="22" FontWeight="Bold" Click="Help_Page_Click"/>
+            <Image HorizontalAlignment="Left" Height="217" Margin="358,10,-591,-227" VerticalAlignment="Top" Width="233" Source="Assets/Let ItOut.jpg"/>
+
+        </RelativePanel>
+    </Grid>
+</Page>
