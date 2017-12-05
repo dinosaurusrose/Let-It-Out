@@ -27,6 +27,11 @@ namespace App1
             this.InitializeComponent();
         }
 
+        private void HomepageBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
         private void SelfHelpBtnClick(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(selfHelp));

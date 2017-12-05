@@ -8,10 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <RelativePanel x:ConnectionId='1' x:Name="NavPanel" HorizontalAlignment="Left" Height="710" VerticalAlignment="Top" Width="244" Background="#FF6BB954"/>
-        <Button x:ConnectionId='2' x:Name="MainMenuBtn" Content="Self Help" HorizontalAlignment="Left" Height="51" Margin="39,80,-112,-99" VerticalAlignment="Top" Width="138" FontSize="18"/>
-
-         
+        <RelativePanel x:ConnectionId='1' x:Name="NavPanel" HorizontalAlignment="Left" Height="710" VerticalAlignment="Top" Width="244" Background="#FF6BB954">
+            <Button x:ConnectionId='4' x:Name="MainMenuBtn" Content="Self Help" HorizontalAlignment="Left" Height="51" Margin="46,184,-119,-203" VerticalAlignment="Top" Width="138" FontSize="18"/>
+            <Button x:ConnectionId='5' x:Name="AboutBtn" Content="About " HorizontalAlignment="Left" Height="51" Margin="46,276,-119,-295" VerticalAlignment="Top" Width="138" FontSize="18"/>
+            <Button x:ConnectionId='6' x:Name="InstructionsBtn" Content="Instuctions" HorizontalAlignment="Left" Height="48" Margin="46,366,-119,-382" VerticalAlignment="Top" Width="138" FontSize="18"/>
+            <Button x:ConnectionId='7' x:Name="InfoBtn" Content="Important&#xA;Information" HorizontalAlignment="Left" Height="70" Margin="46,459,-119,-497" VerticalAlignment="Top" Width="138" FontSize="18"/>
+        </RelativePanel>
+        <Button x:ConnectionId='2' Content="Homepage" HorizontalAlignment="Left" Height="72" Margin="45,40,-124,-80" VerticalAlignment="Top" Width="144"                          FontSize="22" FontWeight="Bold"/>
+        <RelativePanel x:ConnectionId='3' x:Name="ContextPanel" HorizontalAlignment="Left" Height="554" Margin="249,156,0,0" VerticalAlignment="Top" Width="1031"/>
+        <RelativePanel HorizontalAlignment="Left" Height="156" Margin="244,0,0,0" VerticalAlignment="Top" Width="1026" BorderThickness="0.5,0.5,0.5,0.5">
+            <TextBlock HorizontalAlignment="Left" Height="50" Margin="158,69,-663,-99" TextWrapping="Wrap" Text="Confidentiality Information" VerticalAlignment="Top" Width="567" FontSize="36"/>
+            <Image HorizontalAlignment="Left" Height="145" Margin="0,0,-146,-145" VerticalAlignment="Top" Width="146" Source="Assets/Let ItOut.jpg"/>
+        </RelativePanel>
     </Grid>
 </Page>
 

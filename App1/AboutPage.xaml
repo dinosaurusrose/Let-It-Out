@@ -11,18 +11,16 @@
         <Image Source ="Let it out.jpg" HorizontalAlignment="Left" Height="136" Margin="0,0,-160,-136" VerticalAlignment="Top" Width="160" />
 
         <RelativePanel x:Name="NavPanel" HorizontalAlignment="Left" Height="710" VerticalAlignment="Top" Width="244" Background="#FF6BB954"/>
-        <TextBlock HorizontalAlignment="Left" Height="65" Margin="55,10,-115,-55" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" FontSize="36" FontWeight="Bold" Text="Menu"/>
-        <Button x:Name="MainMenuBtn" Content="Self Help" HorizontalAlignment="Left" Height="51" Margin="39,80,-112,-99" VerticalAlignment="Top" Width="138" FontSize="18" Click="SelfHelpBtnClick"/>
-        <Button x:Name="AboutBtn" Content="About " HorizontalAlignment="Left" Height="51" Margin="39,176,-112,-195" VerticalAlignment="Top" Width="138" FontSize="18" Click="AboutBtnClick"/>
-        <Button x:Name="InstructionsBtn" Content="Instuctions" HorizontalAlignment="Left" Height="48" Margin="39,266,-112,-282" VerticalAlignment="Top" Width="138" FontSize="18" Click="InstructionBtnClick"/>
-        <Button x:Name="InfoBtn" Content="Important&#xD;&#xA;Information" HorizontalAlignment="Left" Height="70" Margin="39,359,-112,-397" VerticalAlignment="Top" Width="138" FontSize="18" Click="InfoBtnClick"/>
+        <Button Content="Homepage" HorizontalAlignment="Left" Height="72" Margin="45,40,-124,-80" VerticalAlignment="Top" Width="144" Click="HomepageBtnClick" FontSize="22" FontWeight="Bold"/>
+
+        <Button x:Name="MainMenuBtn" Content="Self Help" HorizontalAlignment="Left" Height="51" Margin="45,177,0,0" VerticalAlignment="Top" Width="138" FontSize="18" Click="SelfHelpBtnClick"/>
+        <Button x:Name="AboutBtn" Content="About " HorizontalAlignment="Left" Height="51" Margin="45,273,0,0" VerticalAlignment="Top" Width="138" FontSize="18" Click="AboutBtnClick"/>
+        <Button x:Name="InstructionsBtn" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="45,363,0,0" VerticalAlignment="Top" Width="138" FontSize="18" Click="InstructionBtnClick"/>
+        <Button x:Name="InfoBtn" Content="Important&#xD;&#xA;Information" HorizontalAlignment="Left" Height="70" Margin="45,456,0,0" VerticalAlignment="Top" Width="138" FontSize="18" Click="InfoBtnClick"/>
         <RelativePanel x:Name="ContextPanel" HorizontalAlignment="Left" Height="554" Margin="249,156,0,0" VerticalAlignment="Top" Width="1031"/>
         <RelativePanel HorizontalAlignment="Left" Height="156" Margin="244,0,0,0" VerticalAlignment="Top" Width="1026" BorderThickness="0.5,0.5,0.5,0.5">
-            <TextBlock HorizontalAlignment="Left" Height="50" Margin="164,96,-669,-126" TextWrapping="Wrap" VerticalAlignment="Top" Width="567" FontSize="36">
-                <Run Text="About Let It "/>
-                <Run Text="Out "/>
-                <Run Text="and the author"/>
-            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="50" Margin="158,69,-663,-99" TextWrapping="Wrap" Text="About the program and the author" VerticalAlignment="Top" Width="567" FontSize="36"/>
+           
             <Image HorizontalAlignment="Left" Height="145" Margin="0,0,-159,-145" VerticalAlignment="Top" Width="159" Source="Assets/Let ItOut.jpg"/>
         </RelativePanel>
     </Grid>

@@ -370,8 +370,8 @@
     <AppxPackagedFile Include="C:\Users\Stephanie Allen\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stephanie Allen\Desktop\Let It Out\Let It Out\App1\Assets\Let it out.jpg">
-      <PackagePath>Assets\Let it out.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Stephanie Allen\Desktop\Let It Out\Let It Out\App1\Assets\Let ItOut.jpg">
+      <PackagePath>Assets\Let ItOut.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Stephanie Allen\Desktop\Let It Out\Let It Out\App1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

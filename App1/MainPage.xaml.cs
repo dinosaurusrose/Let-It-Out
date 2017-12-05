@@ -17,9 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace App1
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+   
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -27,15 +25,39 @@ namespace App1
             this.InitializeComponent();
         }
 
+        private void HomepageBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
         private void Self_Referrall_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(HelpPage));
         }
 
-        private void Help_Page_Click(object sender, RoutedEventArgs e)
+    
+              
+        private void HowToBtnClick(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(HelpPage));
-              
+        }
+        private void SelfHelpBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(selfHelp));
+        }
+
+        private void AboutBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AboutPage));
+        }
+
+        private void InstructionBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HelpPage));
+        }
+
+        private void InfoBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ImportantInfoPage));
         }
     }
 }
